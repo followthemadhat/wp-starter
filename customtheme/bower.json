@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "description": "project description",
+  "main": "bower.json",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "jquery": "^3.6.0",
+    "magnific-popup": "^1.1.0",
+    "swiper": "^6.7.5"
+  }
+}

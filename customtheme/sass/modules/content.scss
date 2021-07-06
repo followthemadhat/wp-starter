@@ -1,0 +1,33 @@
+#content {
+  overflow: hidden;
+}
+
+#main {
+  ul {
+    margin: 20px 0;
+    padding-left: 30px;
+    list-style-type: disc;
+  }
+  ol {
+    margin: 20px 0;
+    padding-left: 30px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.post {
+  &-title {
+
+  }
+  &-image {
+
+  }
+  &-date {
+
+  }
+  &-content {
+
+  }
+}

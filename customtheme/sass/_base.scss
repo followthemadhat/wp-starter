@@ -1,0 +1,52 @@
+/* General Project Styles */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  align-self: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all .25s ease;
+}

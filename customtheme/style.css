@@ -1,0 +1,82 @@
+/*!
+Theme Name: customtheme
+Version: 1.0
+*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wp-caption {
+    padding: 5px 3px 10px;
+    max-width: 96%; /* Image does not overflow the content area */
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    margin: 0;
+    padding: 0;
+    max-width: 98.5%;
+    width: auto;
+    height: auto;
+    border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+    margin: 0;
+    padding: 0 4px 5px;
+    font-size: 11px;
+    line-height: 17px;
+}
